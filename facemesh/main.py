@@ -3,7 +3,6 @@ import cv2
 import time
 
 cap = cv2.VideoCapture(0)
-cTime = 0
 pTime = 0
 
 mpFaceMesh = mp.solutions.face_mesh
